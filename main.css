@@ -1,0 +1,41 @@
+.tags {
+  border-radius: 20px;
+  background-color: lightgray;
+  padding: 5px 10px;
+  /*transition: background-color 0.5s ease;*/
+}
+
+.tags:hover {
+    background-color: gray;
+    color: white;
+}
+
+.main {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(226, 226, 226);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow-y: auto;
+}
+
+@media (min-width: 600px) {
+    .main {
+      margin-left: 20%;
+      margin-right: 20%;
+    }
+  }
+  
+
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  }
+
+  ::selection {
+    background-color: #8B4513; /* Brown */
+    color: white;
+  }
+  
